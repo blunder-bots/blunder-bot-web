@@ -30,7 +30,7 @@ export default function TalkToTeam() {
                 </div>
               </div>
               <blockquote className="text-lg text-gray-400 grow">
-                "At Blunder Bot Technologies, we believe that success is in the details. We're passionate about not just meeting, but exceeding expectations by meticulously implementing every minor detail, because it's in these nuances that excellence truly shines."</blockquote>
+                "At Blunder Bots Technologies, we believe that success is in the details. We're passionate about not just meeting, but exceeding expectations by meticulously implementing every minor detail, because it's in these nuances that excellence truly shines."</blockquote>
               <div className="text-gray-700 font-medium mt-6 pt-5 border-t border-gray-700">
                 <cite className="text-gray-200 not-italic">Umar Farooq</cite> - <a className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out text-sm" href="https://www.linkedin.com/in/umarfarooq478/">Chief Executive Officer</a>
               </div>
@@ -62,7 +62,7 @@ export default function TalkToTeam() {
                   </svg>
                 </div>
               </div>
-              <blockquote className="text-lg text-gray-400 grow">"At Blunder Bots Tehnologies, our strength lies in our diversity of services. From mobile and web app development to staff augmentation, we're a one-stop solution, adapting and evolving to meet the dynamic needs of our clients."</blockquote>
+              <blockquote className="text-lg text-gray-400 grow">"At Blunder Bot Technologies, our strength lies in our diversity of services. From mobile and web app development to staff augmentation, we're a one-stop solution, adapting and evolving to meet the dynamic needs of our clients."</blockquote>
               <div className="text-gray-700 font-medium mt-6 pt-5 border-t border-gray-700">
                 <cite className="text-gray-200 not-italic">Awais Naeem</cite> - <a className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out text-sm" href="http://www.linkedin.com/in/awais-naeem-00b563246">Chief Business Officer</a>
               </div>

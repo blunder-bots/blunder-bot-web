@@ -39,7 +39,7 @@
 
 //             {/* <Image className="rounded-full" src={Logo} width={30} height={30} alt="Testimonial 01" /> */}
 //             <Link href="/" className="block" aria-label="Cruip">
-//                   Blunder Bot Technologies
+//                   Blunder Bots Technologies
 //             </Link>
 // {/* </div> */}
 //           </div>
@@ -96,7 +96,7 @@ export default function Header() {
 
               {/* <Image className="rounded-full" src={Logo} width={30} height={30} alt="Testimonial 01" /> */}
               <Link href="/" className="block" aria-label="Cruip">
-                Blunder Bot Technologies
+                Blunder Bots Technologies
               </Link>
             </div>
           </div>
@@ -110,6 +110,14 @@ export default function Header() {
                   className="font-medium text-purple-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
                 >
                   Meet Our Team
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="#values"
+                  className="font-medium text-purple-600 hover:text-gray-200 px-4 py-3 flex items-center transition duration-150 ease-in-out"
+                >
+                  Our Values
                 </Link>
               </li>
               <li>

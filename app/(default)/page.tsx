@@ -1,6 +1,6 @@
 export const metadata = {
-  title: 'Blunder Bot Technologies',
-  description: 'Blunder Bot Technologies is a leading software house offering services in Mobile App Development, Web App Development and Web 3.0',
+  title: 'Blunder Bots Technologies',
+  description: 'Blunder Bots Technologies is a leading software house offering services in Mobile App Development, Web App Development and Web 3.0',
 }
 
 import Hero from '@/components/hero'
@@ -14,7 +14,7 @@ export default function Home() {
     <>
       <Hero />
       <Features />
-      {/* <Zigzag /> */}
+      <Zigzag />
       <TalkToTeam />
       {/* <Newsletter /> */}
     </>

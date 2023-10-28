@@ -6,7 +6,7 @@ export default function Features() {
 
           {/* Section header */}
           <div id="services" className="max-w-3xl mx-auto text-center pb-12 md:pb-20 font-mono">
-            <h2 className="h2 text-3xl mb-4">At Blunder Bot Technologies, customer satisfaction is our unwavering focus</h2>
+            <h2 className="h2 text-3xl mb-4">At Blunder Bots Technologies, customer satisfaction is our unwavering focus</h2>
             <p className="text-xl text-gray-400">We go the extra mile to understand your needs, deliver exceptional results, and build lasting relationships based on trust and excellence</p>
           </div>
 
