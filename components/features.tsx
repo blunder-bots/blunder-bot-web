@@ -5,8 +5,8 @@ export default function Features() {
         <div className="py-12 md:py-20">
 
           {/* Section header */}
-          <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 mb-4">At Blunder Bots Technologies, customer satisfaction is our unwavering focus</h2>
+          <div id="services" className="max-w-3xl mx-auto text-center pb-12 md:pb-20 font-mono">
+            <h2 className="h2 text-3xl mb-4">At Blunder Bot Technologies, customer satisfaction is our unwavering focus</h2>
             <p className="text-xl text-gray-400">We go the extra mile to understand your needs, deliver exceptional results, and build lasting relationships based on trust and excellence</p>
           </div>
 
@@ -14,29 +14,29 @@ export default function Features() {
           <div className="max-w-sm mx-auto grid gap-8 md:grid-cols-2 lg:grid-cols-3 lg:gap-16 items-start md:max-w-2xl lg:max-w-none" data-aos-id-blocks>
 
             {/* 1st item */}
-            <div className="relative flex flex-col items-center" data-aos="fade-up" data-aos-anchor="[data-aos-id-blocks]">
+            <div className="relative flex flex-col items-center font-mono" data-aos="fade-up" data-aos-anchor="[data-aos-id-blocks]">
               <svg className="w-16 h-16 mb-4" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
                 <rect className="fill-current text-purple-600" width="64" height="64" rx="32" />
                 <path className="stroke-current text-purple-100" d="M30 39.313l-4.18 2.197L27 34.628l-5-4.874 6.91-1.004L32 22.49l3.09 6.26L42 29.754l-3 2.924" strokeLinecap="square" strokeWidth="2" fill="none" fillRule="evenodd" />
                 <path className="stroke-current text-purple-300" d="M43 42h-9M43 37h-9" strokeLinecap="square" strokeWidth="2" />
               </svg>
-              <h4 className="h4 mb-2">Mobile App Development</h4>
+              <h1 className="h1 text-2xl mb-2">Mobile App Development</h1>
               <p className="text-lg text-gray-400 text-center">Transform your app ideas into seamless, user-friendly experiences for iOS and Android, driving engagement and user satisfaction.</p>
             </div>
 
             {/* 2nd item */}
-            <div className="relative flex flex-col items-center" data-aos="fade-up" data-aos-delay="100" data-aos-anchor="[data-aos-id-blocks]">
+            <div className="relative flex flex-col items-center font-mono" data-aos="fade-up" data-aos-delay="100" data-aos-anchor="[data-aos-id-blocks]">
               <svg className="w-16 h-16 mb-4" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
                 <circle className="fill-current text-purple-600" cx="32" cy="32" r="32" />
                 <path className="stroke-current text-purple-100" strokeWidth="2" strokeLinecap="square" d="M21 23h22v18H21z" fill="none" fillRule="evenodd" />
                 <path className="stroke-current text-purple-300" d="M26 28h12M26 32h12M26 36h5" strokeWidth="2" strokeLinecap="square" />
               </svg>
-              <h4 className="h4 mb-2">Web App Development</h4>
+              <h1 className="h1 text-2xl mb-2">Web App Development</h1>
               <p className="text-lg text-gray-400 text-center">Craft visually stunning and functionally flawless web applications that captivate your audience and drive online success.</p>
             </div>
 
             {/* 3rd item */}
-            <div className="relative flex flex-col items-center" data-aos="fade-up" data-aos-delay="200" data-aos-anchor="[data-aos-id-blocks]">
+            <div className="relative flex flex-col items-center font-mono" data-aos="fade-up" data-aos-delay="200" data-aos-anchor="[data-aos-id-blocks]">
               <svg className="w-16 h-16 mb-4" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
                 <rect className="fill-current text-purple-600" width="64" height="64" rx="32" />
                 <g transform="translate(21 21)" strokeLinecap="square" strokeWidth="2" fill="none" fillRule="evenodd">
@@ -45,12 +45,12 @@ export default function Features() {
                   <circle className="stroke-current text-purple-100" cx="11" cy="11" r="11" />
                 </g>
               </svg>
-              <h4 className="h4 mb-2">Search Engine Optimization</h4>
+              <h1 className="h1 text-2xl mb-2">Website Reachability</h1>
               <p className="text-lg text-gray-400 text-center">Boost your online visibility and rankings, increasing organic traffic and ensuring your website gets noticed by your target audience.</p>
             </div>
 
             {/* 4th item */}
-            <div className="relative flex flex-col items-center" data-aos="fade-up" data-aos-delay="300" data-aos-anchor="[data-aos-id-blocks]">
+            <div className="relative flex flex-col items-center font-mono" data-aos="fade-up" data-aos-delay="300" data-aos-anchor="[data-aos-id-blocks]">
               <svg className="w-16 h-16 mb-4" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
                 <rect className="fill-current text-purple-600" width="64" height="64" rx="32" />
                 <g transform="translate(22 21)" strokeLinecap="square" strokeWidth="2" fill="none" fillRule="evenodd">
@@ -58,12 +58,12 @@ export default function Features() {
                   <circle className="stroke-current text-purple-300" cx="13" cy="9" r="3" />
                 </g>
               </svg>
-              <h4 className="h4 mb-2">Software Quality Assurance</h4>
+              <h1 className="h1 text-2xl mb-2"> Quality Assurance</h1>
               <p className="text-lg text-gray-400 text-center">Ensure the reliability and performance of your software with rigorous testing, guaranteeing a bug-free and flawless user experience.</p>
             </div>
 
             {/* 5th item */}
-            <div className="relative flex flex-col items-center" data-aos="fade-up" data-aos-delay="400" data-aos-anchor="[data-aos-id-blocks]">
+            <div className="relative flex flex-col items-center font-mono" data-aos="fade-up" data-aos-delay="400" data-aos-anchor="[data-aos-id-blocks]">
               <svg className="w-16 h-16 mb-4" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
                 <rect className="fill-current text-purple-600" width="64" height="64" rx="32" />
                 <g strokeLinecap="square" strokeWidth="2" fill="none" fillRule="evenodd">
@@ -71,12 +71,12 @@ export default function Features() {
                   <path className="stroke-current text-purple-300" d="M22 30h4v12h-4z" />
                 </g>
               </svg>
-              <h4 className="h4 mb-2">MVP Development</h4>
+              <h1 className="h1 text-2xl mb-2">MVP Development</h1>
               <p className="text-lg text-gray-400 text-center"> Quickly validate your product concept with a Minimum Viable Product, bringing your vision to life and gathering valuable user feedback.</p>
             </div>
 
             {/* 6th item */}
-            <div className="relative flex flex-col items-center" data-aos="fade-up" data-aos-delay="500" data-aos-anchor="[data-aos-id-blocks]">
+            <div className="relative flex flex-col items-center  font-mono" data-aos="fade-up" data-aos-delay="500" data-aos-anchor="[data-aos-id-blocks]">
               <svg className="w-16 h-16 mb-4" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
                 <rect className="fill-current text-purple-600" width="64" height="64" rx="32" />
                 <g transform="translate(21 22)" strokeLinecap="square" strokeWidth="2" fill="none" fillRule="evenodd">
@@ -85,8 +85,8 @@ export default function Features() {
                   <path className="stroke-current text-purple-100" d="M8.86 1.18C3.8 1.988 0 5.6 0 10c0 5 4.9 9 11 9a10.55 10.55 0 003.1-.4L20 21l-.6-5.2a9.125 9.125 0 001.991-2.948" />
                 </g>
               </svg>
-              <h4 className="h4 mb-2">Staff Augmentation</h4>
-              <p className="text-lg text-gray-400 text-center">Extend your team with top tech talent, on-demand, to accelerate your project and meet deadlines effectively.</p>
+              <h1 className="h1 text-2xl mb-2">Web 3.0</h1>
+              <p className="text-lg text-gray-400 text-center">Unlock the future of the web with our Web 3.0 development expertise, focusing on dApps, blockchain, and AI integration to match your needs.</p>
             </div>
 
           </div>

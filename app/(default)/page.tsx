@@ -1,22 +1,22 @@
 export const metadata = {
-  title: 'Home - Open PRO',
-  description: 'Page description',
+  title: 'Blunder Bot Technologies',
+  description: 'Blunder Bot Technologies is a leading software house offering services in Mobile App Development, Web App Development and Web 3.0',
 }
 
 import Hero from '@/components/hero'
 import Features from '@/components/features'
 import Newsletter from '@/components/newsletter'
 import Zigzag from '@/components/zigzag'
-import Testimonials from '@/components/testimonials'
+import TalkToTeam from '@/components/TalkToTeam'
 
 export default function Home() {
   return (
     <>
       <Hero />
       <Features />
-      <Zigzag />
-      <Testimonials />
-      <Newsletter />
+      {/* <Zigzag /> */}
+      <TalkToTeam />
+      {/* <Newsletter /> */}
     </>
   )
 }
